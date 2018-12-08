@@ -102,8 +102,8 @@ section.container .player .player-content .player-content-video{
     border-left: 47px solid #98161b;
     border-bottom: 27px solid transparent;
     position: absolute;
-    left: 260px;
-    top: 146px;
+    left: 45%;
+    top: 40%;
 }
 
 section.container .player .player-content span:last-of-type:after{
