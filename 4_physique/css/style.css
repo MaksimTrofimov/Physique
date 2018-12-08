@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'MetropolisMedium';
+    src: url('../fonts/MetropolisMedium.eot');
+    src: url('../fonts/MetropolisMedium.eot') format('embedded-opentype'),
+    url('../fonts/MetropolisMedium.woff2') format('woff2'),
+    url('../fonts/MetropolisMedium.woff') format('woff'),
+    url('../fonts/MetropolisMedium.ttf') format('truetype'),
+    url('../fonts/MetropolisMedium.svg#MetropolisMedium') format('svg');
+}
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/BebasNeueRegular.eot');
+    src: url('../fonts/BebasNeueRegular.eot') format('embedded-opentype'),
+    url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+    url('../fonts/BebasNeueRegular.woff') format('woff'),
+    url('../fonts/BebasNeueRegular.ttf') format('truetype'),
+    url('../fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+header{
+    background-image: url("../images/bg_header.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 21px;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 25px 24px 12px;
+}
+header form{
+    float: right;
+    margin-top: 8px;
+    max-width:  208px;
+    width: 100%;
+    background-color: #ebebeb;
+    border-radius: 3px;
+    margin-right: 24px;
+}
+header form input{
+    line-height: 43px;
+    border: none;
+    font-size: 15px;
+    border-color: transparent;
+    color: #959595;
+    text-transform: uppercase;
+    padding-left: 17px;
+    box-sizing: border-box;
+    width: 70%;
+    float: left;
+}
+header form button{
+    background-color: transparent;
+    border: none;
+    line-height: 43px;
+    float: right;
+    width: 24%;
+}
+header form button i{
+    margin-right: 14px;
+    font-size: 17px;
+    color: red;
+}
+header a i{
+    margin-right: 14px;
+    font-size: 17px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+header .container div a{
+    font-family: 'MetropolisMedium';
+}
+header .container div:first-child a:not(:first-child){
+    float: right;
+    margin-top: 8px;
+    max-width:  170px;
+    width: 100%;
+    background-color: #252525;
+    border-radius: 3px;
+    line-height: 43px;
+    text-align: center;
+    margin-right: 25px;
+    text-transform: uppercase;
+    color: white;
+}
+header .container div:first-child a:nth-child(3){
+    background-color: red;
+}
+header .container div:first-child a:nth-child(4){
+    background-color: #464646;
+}
+header .container div a:last-child{
+    background-color: #252525;
+}
+.container:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+.container div:first-child{
+    border-bottom: solid 2px #464646;
+    padding-bottom: 21px;
+}
+.container div:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+header ul{
+    font-family: 'BebasNeueRegular';
+    color: white;
+    font-size: 20px;
+    list-style-type: none;
+}
+header ul li{
+    float: left;
+    margin: 20px 24px 0px 0px;
+    padding-bottom: 10px;
+    border-bottom: solid 4px transparent;
+    transition: 0.5s;
+}
+header nav li:hover {
+    border-bottom: solid 4px red;
+    transition: 0.5s;
+    /*border-color: red;*/
+}
+header .social i{
+    color: red;
+    font-size: 30px;
+    margin-top: 18px;
+    margin-left: 17px;
+    float: right;
+}
+h1{
+    color: white;
+    font-size: 37px;
+    font-family: 'BebasNeueRegular';
+    text-align: center;
+    margin-top: 69px;
+    border-bottom: 3px solid red;
+    padding-bottom: 33px;
+}
