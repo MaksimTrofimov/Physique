@@ -170,5 +170,10 @@ section h1 {
     top: 0; left: 0; right: 0;
 }
 
+header nav li:hover {
+    border-bottom: solid 4px red;
+    transition: 0.5s;
+}
+
 
 
