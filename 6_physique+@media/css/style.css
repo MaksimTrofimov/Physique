@@ -103,6 +103,7 @@ header div:first-child form button {
     border: none;
     background-color: #ebebeb;
     border-radius: 0 3px 3px 0;
+    margin-left: -1px;
 }
 
 header div:first-child i {
@@ -135,7 +136,7 @@ header .social:after {
 }
 
 header .social i {
-    color: red;
+    color: #fa090a;
     font-size: 33px;
     margin-top: 13px;
     margin-left: 19px;
@@ -162,7 +163,7 @@ section h1 {
     background-image: url("../images/bg_header.png");
     min-height: 339px;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
     background-size: cover;
     z-index: -1;
     position: absolute;
